@@ -29,7 +29,7 @@ DynamicPotion	           Chain of Responsibility pattern to handle different pot
 * Creational	  
   SmartHomeFactory	       Abstract Factory pattern to create different smart home devices.
 
-GameSettings             Singleton	Singleton pattern to manage global game settings.
+    GameSettings             Singleton	Singleton pattern to manage global game settings.
 * Structural	  
 TimeTravel	             Adapter pattern to convert ancient date formats for a time machine system.
 
