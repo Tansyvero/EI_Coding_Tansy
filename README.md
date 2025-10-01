@@ -21,14 +21,15 @@ Two use cases for creational patterns
 Two use cases for structural patterns
 
 Example Creative Implementations:
-
-Pattern Type	Example Use Case	     Description
-Behavioural	  DynamicPotion	         Chain of Responsibility pattern to handle different potion effects dynamically.
-Behavioural	  RestaurantOrderSystem	 Command pattern to manage and execute restaurant customer orders.
-Creational	  SmartHomeFactory	     Abstract Factory pattern to create different smart home devices.
-Creational	  GameSettings           Singleton	Singleton pattern to manage global game settings.
-Structural	  TimeTravel	           Adapter pattern to convert ancient date formats for a time machine system.
-Structural	  AR	                   Bridge pattern to separate abstraction and implementation in an augmented reality system.
+*Behavioural	  
+DynamicPotion	           Chain of Responsibility pattern to handle different potion effects dynamically.
+RestaurantOrderSystem	   Command pattern to manage and execute restaurant customer orders.
+*Creational	  
+SmartHomeFactory	       Abstract Factory pattern to create different smart home devices.
+GameSettings             Singleton	Singleton pattern to manage global game settings.
+*Structural	  
+TimeTravel	             Adapter pattern to convert ancient date formats for a time machine system.
+AR	                     Bridge pattern to separate abstraction and implementation in an augmented reality system.
 
 Features:
 * Proper exception handling for invalid inputs.
