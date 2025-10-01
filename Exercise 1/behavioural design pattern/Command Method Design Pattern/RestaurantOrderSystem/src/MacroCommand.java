@@ -1,0 +1,26 @@
+
+import java.util.ArrayList;
+import java.util.List;
+
+// Executes multiple commands as a single command
+public class MacroCommand implements Command {
+    private List<Command> commands = new ArrayList<>();
+
+    public void addCommand(Command command) {
+        commands.add(command);
+    }
+
+    @Override
+    public void execute() throws Exception {
+        for (Command command : commands) {
+            command.execute();
+        }
+    }
+
+    @Override
+    public void undo() throws Exception {
+        for (Command command : commands) {
+            command.undo();
+        }
+    }
+}
